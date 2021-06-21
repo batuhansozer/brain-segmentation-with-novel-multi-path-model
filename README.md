@@ -32,9 +32,9 @@ python predict.py --use_gpu True --dataset_path Data/npy_dataset --baseline_mode
 ```
 
 ## Sample Predictions
-![Sample Prediction 1](/results/results_60.png.png)
+![Sample Prediction 1](/results/results_60.png)
 
-![Sample Prediction 1](/results/results_101.png.png)
+![Sample Prediction 1](/results/results_101.png)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
