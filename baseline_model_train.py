@@ -168,7 +168,7 @@ if __name__ == '__main__':
     model.compile(loss='categorical_crossentropy', optimizer=tf.keras.optimizers.Adam(lr), metrics=metrics, run_eagerly=True)
 
     callbacks = [
-        ModelCheckpoint("baseline_model.h5", verbose=1, save_best_model=True),
+        ModelCheckpoint("Model/baseline_model.h5", verbose=1, save_best_model=True),
         ReduceLROnPlateau(monitor='val_loss', patience=3, factor=0.1, verbose=1, min_lr=1e-6),
         EarlyStopping(monitor='val_loss', patience=5, verbose=1)
     ]
