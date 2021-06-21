@@ -1,5 +1,5 @@
 # Brain Segmentation with Novel Multi Path Model
-
+[![DOI](https://zenodo.org/badge/379040837.svg)](https://zenodo.org/badge/latestdoi/379040837)
 ## Overview
 This repository contains source code for multi path brain segmentation model that uses T1-Weighted, T2-Weighted and FLAIR MRI images as input. The architecture is using U-Net architecture with residual extended skip blocks as baseline model. Model is trained and tested with Gazi Brains 2020 dataset.
 
