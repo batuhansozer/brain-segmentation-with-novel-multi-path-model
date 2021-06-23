@@ -14,7 +14,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```bash
-python create_dataset.py --input_width 224 --input_height 224 --dataset_path Data/gazi_brains --dataset_save_path Data/npy_dataset
+python create_dataset.py --input_width 224 --input_height 224 --dataset_path Data/raw_data --dataset_save_path Data/npy_dataset
 
 python split_npy_dataset.py --dataset_path Data/npy_dataset --split_dataset_save_path Data/split_npy_dataset --batch_size 32
 
