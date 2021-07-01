@@ -1,7 +1,7 @@
 # Brain Segmentation with Novel Multi Path Model
 
 ## Overview
-This repository contains source code for multi path brain segmentation model that uses T1-Weighted, T2-Weighted and FLAIR MRI images as input. The architecture is using U-Net architecture with residual extended skip blocks as baseline model. Model is trained and tested with Gazi Brains 2020 dataset. You may download the dataset from [synapse](https://www.synapse.org/#!Synapse:syn22159468/wiki/603890).
+This repository contains source code for multi path brain segmentation model that uses T1-Weighted, T2-Weighted and FLAIR MRI images as input. The architecture is using U-Net architecture with residual extended skip blocks as baseline model. Model is trained and tested with Gazi Brains 2020 dataset. You may download the dataset from [synapse.org](https://www.synapse.org/#!Synapse:syn22159468/wiki/603890).
 
 ## Requirements
 
