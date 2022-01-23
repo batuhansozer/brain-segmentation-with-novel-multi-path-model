@@ -15,7 +15,7 @@ def resblock(x, f):
     x = BatchNormalization()(x)
     x = Activation('relu')(x)
 
-    x = Conv2D(f, kernel_size=3, padding='same', dilation_rate=7, kernel_initializer='he_normal')(x)
+    x = Conv2D(f, kernel_size=3, padding='same', kernel_initializer='he_normal')(x)
     x = BatchNormalization()(x)
 
     x_copy = Conv2D(f, kernel_size=1, kernel_initializer='he_normal')(x_copy)
